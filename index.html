@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="/styles/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/styles/style.css">
   <title>Document</title>
 </head>
 
@@ -54,17 +54,108 @@
 
   <main class="main">
 
-    <section class="about">
+    <section class="about section">
       <div class="container container--sm">
-        <h2 class="about__me">Обо мне</h2>
-        <p class="about_description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br> вэб-дизайне.
-          Lorem
-          Ipsum является
-          стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+        <h2 class="about__title section__title">Обо мне</h2>
+        <p class="about__description section_description">Lorem Ipsum - это
+          текст-"рыба", часто используемый в печати и <br>вэб-дизайне.
+          Lorem Ipsum являєтся стандартной "рыбой" для текстов
+          на латинице с начала XVI века.
+        </p>
       </div>
     </section>
 
+    <section class="work">
+      <div class="container">
+        <h2 class="work__title visually-hidden">Experience</h2>
+        <div class="work__container">
+
+          <div class="work-item">
+            <div class="work-item__description">
+              <p class="work-item__numbers">40+</p>
+              <p class="work-item__project">проектов</p>
+            </div>
+            <div class="work-item__image">
+              <img src="/images/project.svg-1.svg" alt="image-svg">
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item__description">
+              <p class="work-item__numbers">40+</p>
+              <p class="work-item__project">проектов</p>
+            </div>
+            <div class="work-item__image">
+              <img src="/images/project.svg-1.svg" alt="image-svg">
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item__description">
+              <p class="work-item__numbers">40+</p>
+              <p class="work-item__project">проектов</p>
+            </div>
+            <div class="work-item__image">
+              <img src="/images/project.svg-1.svg" alt="image-svg">
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item__description">
+              <p class="work-item__numbers">40+</p>
+              <p class="work-item__project">проектов</p>
+            </div>
+            <div class="work-item__image">
+              <img src="/images/project.svg-1.svg" alt="image-svg">
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item__description">
+              <p class="work-item__numbers">40+</p>
+              <p class="work-item__project">проектов</p>
+            </div>
+            <div class="work-item__image">
+              <img src="/images/project.svg-1.svg" alt="image-svg">
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item__description">
+              <p class="work-item__numbers">40+</p>
+              <p class="work-item__project">проектов</p>
+            </div>
+            <div class="work-item__image">
+              <img src="/images/project.svg-1.svg" alt="image-svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section">
+      <div class="container container--sm">
+        <h2 class="process__title section__title">Как я работаю</h2>
+        <p class="process__description section_description">Lorem Ipsum - это
+          текст-"рыба", часто используемый в печати и <br>вэб-дизайне.
+          Lorem Ipsum являєтся стандартной "рыбой" для текстов
+          на латинице с начала XVI века.
+        </p>
+      </div>
+    </section>
+
+    <section class="video">
+      <div class="container container-sm">
+        <h2 class="video__title visually-hidden">Video</h2>
+        <iframe class="video__frame" width="560" height="315"
+          src="https://www.youtube.com/embed/gRtcnFlJcNo?si=azfd_4uDHWJhlWFX" title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__name">Влад Михайлець</div>
+      <div class="footer__copyright">(с) 2018. Все права защищены.</div>
+    </div>
+  </footer>
 
 </body>
 
